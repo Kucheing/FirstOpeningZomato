@@ -9,4 +9,4 @@ print(msg2)
 msg3 = msg.split()
 print(msg3)
 
-print(np.random.randint(1,9))  # Roll a dice with values from 1 to 8
+print(np.random.randint(1,9))  # Roll a dice with values from 1 to 8  
