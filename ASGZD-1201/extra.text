@@ -1,0 +1,46 @@
+#Some analysis here to connect to objectives *LAB2*
+
+avg_sleep = df['Sleep Duration'].mean()
+
+print(f"Average sleep duration across {len(df)} records: {avg_sleep:.2f} hours")
+
+
+*Note:* computation of averages and other exploratory statistics will be performed after the preprocessing stage is finished. The focus for now is purely data cleaning.
+
+
+
+
+
+
+
+*Scatter plot code removed; this belongs to the analysis phase, which will be added later.*
+
+ Analyze how Sleep Duration impacts Quality of Sleep and Stress Level
+ Create scatter plot
+plt.figure(figsize=(10, 6))
+
+ Sleep Duration vs Quality of Sleep
+plt.scatter(df['Sleep Duration'], df['Quality of Sleep'], color='blue')
+plt.xlabel('Sleep Duration (hours)')
+plt.ylabel('Quality of Sleep')
+plt.title('Sleep Duration vs Quality of Sleep')
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+
+*Scatter plot code removed; this belongs to the analysis phase, which will be added later.*
+
+ Create scatter plot
+plt.figure(figsize=(10, 6))
+
+ Plot 2: Sleep Duration vs Stress Level
+plt.scatter(df['Sleep Duration'], df['Stress Level'], color='red')
+plt.xlabel('Sleep Duration (hours)')
+plt.ylabel('Stress Level')
+plt.title(f'Sleep Duration vs Stress Level')
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
