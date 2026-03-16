@@ -68,19 +68,17 @@
     <comp lib="0" loc="(380,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Sum"/>
       <a name="type" val="output"/>
     </comp>
     <comp lib="0" loc="(380,420)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Carry"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="1" loc="(300,320)" name="XOR Gate">
-      <a name="label" val="Sum"/>
-    </comp>
-    <comp lib="1" loc="(300,420)" name="AND Gate">
-      <a name="label" val="carry"/>
-    </comp>
+    <comp lib="1" loc="(300,320)" name="XOR Gate"/>
+    <comp lib="1" loc="(300,420)" name="AND Gate"/>
     <wire from="(110,300)" to="(170,300)"/>
     <wire from="(110,340)" to="(110,400)"/>
     <wire from="(110,340)" to="(140,340)"/>
